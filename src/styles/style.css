@@ -38,8 +38,8 @@ main {
     align-items: center;
     padding: 60px 0;
     gap: 100px;
-  
-    P{
+
+    P {
         width: 546px;
     }
 }
@@ -47,7 +47,7 @@ main {
 
 
 .section__indicator {
-    display:flex;
+    display: flex;
     align-items: center;
     padding: 10px 12px;
     gap: 8px;
@@ -59,16 +59,18 @@ main {
     font-weight: bold;
 }
 
+
+
 .content__main {
     display: flex;
     flex-direction: column;
-    gap: 20px;   
+    gap: 20px;
 }
 
 h1 {
     color: var(--color-white);
-    font-size: var(--font-h1) ;
-    font-family: var(--font-title) ;
+    font-size: var(--font-h1);
+    font-family: var(--font-title);
     width: 549px;
 }
 
@@ -124,7 +126,7 @@ h1 span {
     font-family: var(--font-title);
 }
 
-.section__destiny{
+.section__destiny {
     display: flex;
     flex-direction: column;
     gap: 60px;
@@ -139,7 +141,7 @@ h1 span {
     align-items: center;
     text-align: center;
 
-    p{
+    p {
         width: 572px;
     }
 }
@@ -179,7 +181,7 @@ h1 span {
     gap: 5px;
 }
 
-.destiny__reviews-stars:hover{
+.destiny__reviews-stars:hover {
     transform: scale(1.1);
 }
 
@@ -225,4 +227,36 @@ h1 span {
     display: flex;
     justify-content: center;
     gap: 20px;
+}
+
+.section__highlights {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    background-color: var(--color-l-black);
+    padding: 60px 0px;
+}
+
+.container__card-highlights {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card__highlights {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 363px;
+    background-color: var(--color-black);
+    padding: 80px 35px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.card__highlights h3 {
+    color: var(--color-white);
+    font-family: var(--font-title);
+    font-size: var(--font-h4);
 }
