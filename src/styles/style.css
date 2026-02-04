@@ -31,3 +31,74 @@ header {
     font-size: var(--font-body3);
     font-weight: bold;
 }
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+    gap: 100px;
+  
+    P{
+        width: 546px;
+    }
+}
+
+
+
+.section__indicator {
+    display:flex;
+    align-items: center;
+    padding: 10px 12px;
+    gap: 8px;
+    color: var(--color-pink);
+    border: 1px solid var(--color-d-gray);
+    border-radius: 10px;
+    font-family: var(--font-title);
+    font-size: var(--font-body4);
+    font-weight: bold;
+}
+
+.content__main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;   
+}
+
+h1 {
+    color: var(--color-white);
+    font-size: var(--font-h1) ;
+    font-family: var(--font-title) ;
+    width: 549px;
+}
+
+h1 span {
+    color: var(--color-pink);
+}
+
+.container__btn-main {
+    display: flex;
+    gap: 20px;
+}
+
+.btn__primary {
+    padding: 14px 24px;
+    background-color: var(--color-pink);
+    color: var(--color-white);
+    border-radius: 10px;
+    font-family: var(--font-title);
+    font-size: var(--font-body2);
+}
+
+.btn__secondary {
+    display: flex;
+    align-items: center;
+    padding: 14px 24px;
+    gap: 6px;
+    border: 1.5px solid var(--color-d-gray);
+    color: var(--color-white);
+    border-radius: 10px;
+    font-family: var(--font-title);
+    font-size: var(--font-body3);
+
+}
